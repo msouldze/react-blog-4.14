@@ -1,0 +1,155 @@
+@media (min-width: 320px) {
+  .editarticle-container {
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 48px 36px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 2px solid var(--background-color);;
+    background: var(--background-color-base);
+  }
+
+  .editarticle-container h2 {
+    text-align: center;
+  }
+
+  .editarticle-container .editarticle-form {
+    margin: 21px 0 8px;
+  }
+
+  .editarticle-form label, input[type='text'] {
+    display: block;
+  }
+
+  .editarticle-form label {
+    font-size: 0.9rem;
+  }
+
+  .editarticle-form label + label {
+    margin-top: 21px;
+  }
+
+  .editarticle-form input,
+  .editarticle-form textarea {
+    margin-top: 3px;
+    padding: 8px 12px;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+  }
+  .editarticle-form textarea {
+    display: block;
+    height: 168px;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+  }
+  
+  .editarticle-form .tags-input {
+    margin: 21px 0;
+  }
+
+  .editarticle-form .tags-input div {
+    font-size: 0.9rem;
+  }
+
+  .editarticle-form .tag-btns {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+  .editarticle-form .tag-btns input {
+    margin-top: 0;;
+  }
+
+  .editarticle-form .tag-btns div {
+    position: absolute;
+    right: 5px;
+    cursor: pointer;
+  }
+
+  .editarticle-form .tag-btns img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    opacity: 0.9;
+  }
+
+  .editarticle-form .tag-btns button {
+    display: none;
+  }
+
+  .editarticle-form .tag-btns .delete-btn {
+    right: 35px;
+  }
+
+  .editarticle-form > button {
+    padding: 9px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--background-color-base);
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    background: var(--primary-color);
+  }
+}
+
+@media (min-width: 768px) {
+  .editarticle-container {
+    max-width: 600px;
+    max-height: 807px;
+    margin: 26px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.15);
+  }
+
+  .editarticle-form .tag-btns div {
+    position: static;
+  }
+
+  .editarticle-form .tag-btns input {
+    width: 300px;
+  }
+
+  .editarticle-form .tag-btns button {
+    display: block;
+    padding: 8px 20px;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 3px;
+    background: var(--background-color-base);
+  }
+
+  .editarticle-form .tag-btns img {
+    display: none;
+  }
+
+  .editarticle-form .tag-btns .delete-btn {
+    margin: 0 17px;
+    color: var(--highlight-color);
+    border-color: var(--highlight-color);
+  }
+
+  .editarticle-form .tag-btns .add-btn button {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+
+  .editarticle-form .editarticle-form > button {
+    width: 319px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .editarticle-container {
+    max-width: 938px;
+  }
+
+  .editarticle-form .tag-btns button {
+    padding: 8px 30px;
+  }
+
+}
+

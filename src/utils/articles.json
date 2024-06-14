@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "date": "March 5, 2020",
+    "likesCount": 12,
+    "tags": ["Tag1"],
+    "title": "Some article title",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  nisi ut aliquip ex ea commodo consequat.",
+    "author": {
+      "name": "John Doe",
+      "image": "/Rectangle 1.png"
+    }    
+  },
+  {
+    "id": 2,
+    "date": "March 5, 2020",
+    "likesCount": 12,
+    "tags": ["Tag1"],
+    "title": "Some article title",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  nisi ut aliquip ex ea commodo consequat.",
+    "author": {
+      "name": "John Doe",
+      "image": "/Rectangle 1.png"
+    }    
+  },
+  {
+    "id": 3,
+    "date": "March 5, 2020",
+    "likesCount": 12,
+    "tags": ["Tag1"],
+    "title": "Some article title",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  nisi ut aliquip ex ea commodo consequat.",
+    "author": {
+      "name": "John Doe",
+      "image": "/Rectangle 1.png"
+    }    
+  },
+  {
+    "id": 4,
+    "date": "March 5, 2020",
+    "likesCount": 12,
+    "tags": ["Tag1"],
+    "title": "Some article title",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  nisi ut aliquip ex ea commodo consequat.",
+    "author": {
+      "name": "John Doe",
+      "image": "/Rectangle 1.png"
+    }    
+  },
+  {
+    "id": 5,
+    "date": "March 5, 2020",
+    "likesCount": 12,
+    "tags": ["Tag1"],
+    "title": "Some article title",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  nisi ut aliquip ex ea commodo consequat.",
+    "author": {
+      "name": "John Doe",
+      "image": "/Rectangle 1.png"
+    }    
+  }
+]

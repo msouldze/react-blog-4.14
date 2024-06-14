@@ -1,0 +1,76 @@
+@media (min-width: 320px) {
+  .modal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 16px;
+    width: 240px;
+    height: 104px;
+    background: var(--background-color-base);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+  }
+
+  .modal img {
+    display: none;
+  }
+
+  .modal p {
+    line-height: 1.2rem;
+  }
+
+  .modal p::before {
+    display: inline-block;
+    content: '';
+    position: relative;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    background: url('/exclamation.svg');
+  }
+
+  .modal div {
+    text-align: right;
+    color: #595959;
+  }
+
+  .modal div button {
+    padding: 1px 8px;
+    border-radius: 2px;
+  }
+
+  .modal div button:first-child {
+    color: #595959;
+    border: 1px solid var(--border-color);
+    background: var(--background-color-base);
+  }
+
+  .modal div button:last-child {
+    color: var(--background-color-base);
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+
+  .modal div button + button {
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 475px) {
+
+}
+
+@media (min-width: 768px) {
+  .modal img {
+    display: inline-block;
+    position: absolute;
+    width: 6px;
+    height: 12px;
+    background: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.15));
+  }
+}
+
+@media (min-width: 1000px) {
+}

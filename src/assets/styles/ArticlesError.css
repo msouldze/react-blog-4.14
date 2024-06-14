@@ -1,0 +1,19 @@
+.articles-error {
+  margin: 50px auto;
+  padding: 26px;
+  max-width: 700px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  background: var(--background-color-base);
+  box-shadow: 0 4px 12px rgba(0,0,0, 0.15);
+}
+
+.articles-error p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.articles-error a {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+}

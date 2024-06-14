@@ -1,0 +1,155 @@
+@media (min-width: 320px) {
+  .create-container {
+    position: relative;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 16px 16px 64px;
+    font-family: 'Roboto', sans-serif;
+    border-top: 2px solid var(--background-color);;
+    background: var(--background-color-base);
+  }
+
+  .create-container h2 {
+    text-align: center;
+  }
+
+  .create-container .create-form {
+    margin: 21px 0 8px;
+  }
+
+  .create-form label, input[type='text'] {
+    display: block;
+  }
+
+  .create-form label {
+    font-size: 0.9rem;
+  }
+
+  .create-form label + label {
+    margin-top: 21px;
+  }
+
+  .create-form input,
+  .create-form textarea {
+    margin-top: 3px;
+    padding: 8px 12px;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+  }
+  .create-form textarea {
+    display: block;
+    height: 168px;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+  }
+  
+  .create-form .tags-input {
+    margin: 21px 0;
+  }
+
+  .tag-btns {
+    position: relative;
+    margin-top: 5px;
+  }
+
+  .tag-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    }
+    
+  .tag-btn div {
+    position: absolute;
+    right: 5px;
+  }
+
+  .tag-btn img {
+    display: block;
+    width: 25px;
+    height: 25px;
+    opacity: 0.9;
+  }
+
+  .tag-btns button {
+    display: none;
+  }
+
+  .tag-btns .delete-btn {
+    right: 40px;
+  }
+
+  .add-btn div {
+    top: -20px;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+  }
+
+  .create-form > button {
+    padding: 9px 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+    color: var(--background-color-base);
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    background: var(--primary-color);
+  }
+}
+
+@media (min-width: 768px) {
+  .create-container {
+    max-width: 600px;
+    max-height: 807px;
+    margin: 26px auto;
+    box-shadow: 0 4px 12px rgba(0,0,0, 0.15);
+  }
+
+  .tag-btns div {
+    position: static;
+  }
+
+  .tag-btns input {
+    width: 300px;
+  }
+
+  .tag-btns button {
+    display: block;
+    padding: 8px 30px;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 3px;
+    background: var(--background-color-base);
+  }
+
+  .delete-btn img,
+  .add-btn div {
+    display: none;
+  }
+
+  .tag-btns .delete-btn {
+    margin: 0 17px;
+  }
+
+  .tag-btns .delete-btn button {
+    color: var(--highlight-color);
+    border-color: var(--highlight-color);
+  }
+
+  .tag-btns .add-btn button {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+
+  .create-form > button {
+    width: 319px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .create-container {
+    max-width: 938px;
+  }
+}
+
